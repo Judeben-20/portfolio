@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JudeBen's Blog - A Developer's Journey</title>
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="JudeBen's personal blog - A developer's journey from Kerala, India. FISAT student sharing coding experiences and tech insights.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #667eea;
+        }
+        
+        main {
+            padding: 3rem 0;
+        }
+        
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .blog-post {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .blog-post:hover {
+            transform: translateY(-5px);
+        }
+        
+        .blog-post h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .blog-post .date {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        
+        .blog-post p {
+            margin-bottom: 1rem;
+            color: #555;
+        }
+        
+        .read-more {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .read-more:hover {
+            text-decoration: underline;
+        }
+        
+        .about-section {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>JudeBen's Blog</h1>
+            <p>A Developer's Journey from Kerala | FISAT Student</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#posts">Blog Posts</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="../index.html">Back to Portfolio</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="container">
+            <section id="about" class="about-section">
+                <h2>About Me</h2>
+                <p>Hello! I'm JudeBen, a passionate developer and student at Federal Institute of Science and Technology (FISAT) in Kerala, India. This blog is where I share my journey through the world of technology, coding experiences, and life as a computer science student.</p>
+                <p>Living in the beautiful state of Kerala, I'm constantly inspired by the blend of tradition and technology that surrounds me. Here, you'll find my thoughts on programming, web development, college life, and the exciting projects I'm working on.</p>
+            </section>
+            
+            <section id="posts">
+                <h2>Latest Blog Posts</h2>
+                <div class="blog-grid">
+                    <article class="blog-post">
+                        <h3>My Journey at FISAT: First Year Reflections</h3>
+                        <div class="date">January 15, 2025</div>
+                        <p>Starting my journey at Federal Institute of Science and Technology has been an incredible experience. From learning the fundamentals of computer science to making lifelong friendships, here's what my first year taught me...</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
+                    
+                    <article class="blog-post">
+                        <h3>Building My First Portfolio Website</h3>
+                        <div class="date">January 10, 2025</div>
+                        <p>Creating a personal portfolio was both challenging and rewarding. I learned about Three.js animations, responsive design, and how to showcase my work effectively. Here's the complete process...</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
+                    
+                    <article class="blog-post">
+                        <h3>Kerala's Tech Scene: A Student's Perspective</h3>
+                        <div class="date">January 5, 2025</div>
+                        <p>Kerala has a thriving tech ecosystem that's often overlooked. From Technopark in Trivandrum to the emerging startups in Kochi, here's my take on the opportunities for students like me...</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
+                    
+                    <article class="blog-post">
+                        <h3>Learning Web Development: My Roadmap</h3>
+                        <div class="date">December 28, 2024</div>
+                        <p>Web development seemed overwhelming at first, but breaking it down into manageable steps made all the difference. Here's the roadmap I followed to learn HTML, CSS, JavaScript, and beyond...</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
+                    
+                    <article class="blog-post">
+                        <h3>College Projects That Shaped My Coding Skills</h3>
+                        <div class="date">December 20, 2024</div>
+                        <p>From simple console applications to complex web projects, my college assignments have been instrumental in developing my programming skills. Here are the projects that made the biggest impact...</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
+                    
+                    <article class="blog-post">
+                        <h3>Why I Chose Computer Science</h3>
+                        <div class="date">December 15, 2024</div>
+                        <p>The decision to pursue computer science wasn't made overnight. It was influenced by my curiosity about how technology works and my desire to create solutions that make a difference...</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 JudeBen. All rights reserved. | Kerala, India | FISAT Student</p>
+        </div>
+    </footer>
+</body>
+</html>
